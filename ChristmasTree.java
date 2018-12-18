@@ -1,14 +1,14 @@
 public class ChristmasTree {
 	public static void main(String[] args) {
 
-		int lines = 8;
+		int lines = 13;
 		int midPoint = lines;
         int trunkMidPoint = lines;
         int trunkHeight = 3;
 		int gridLength = (lines * 2) - 1;
 		int numberOfStars = 1;
         int triangles = 3;
-        int triangleCounter = 1;
+        int triangleCounter = 3;
         
         while (triangleCounter <= triangles) {
         
