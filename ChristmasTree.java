@@ -48,7 +48,11 @@ public class ChristmasTree {
             for (int j = 1; j <= (trunkMidPoint + 1); j++) {
                 if (j == (trunkMidPoint - 1)) {
                     for (int k = 1; k <= trunkHeight; k++) {
-                        System.out.print('|');
+                        if (k == trunkHeight) {
+                            System.out.print('|');
+                        } else {
+                            System.out.print('|');
+                        }
                     }
                     break;
                 } else {
